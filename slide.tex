@@ -6,12 +6,23 @@
 \usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
 \usepackage{graphicx,pstricks,listings,stackengine}
 
-\author{翁家翌}
-\title{THU Beamer Theme}
+% my settings
+\definecolor{mintbg}{rgb}{0.95,0.95,0.95}
+\usepackage{minted}
+\setminted{
+    breaklines,
+    linenos,
+    mathescape,
+    bgcolor=mintbg
+}
+%
+
+\author{万祚全}
+\title{SCUEC Beamer Theme}
 \subtitle{毕业设计开题报告}
-\institute{清华大学计算机科学与技术系}
-\date{2020年1月2日}
-\usepackage{Tsinghua}
+\institute{中南民族大学计算机科学学院}
+\date{2021年1月8日}
+\usepackage{SCUEC}
 
 % defs
 \def\cmd#1{\texttt{\color{red}\footnotesize $\backslash$#1}}
@@ -40,7 +51,7 @@
     \titlepage
     \begin{figure}[htpb]
         \begin{center}
-            \includegraphics[width=0.2\linewidth]{pic/Tsinghua_University_Logo.eps}
+            \includegraphics[width=0.2\linewidth]{pic/scuec-logo.eps}
         \end{center}
     \end{figure}
 \end{frame}
@@ -338,9 +349,21 @@ $V = \frac{4}{3}\pi r^3$
     \end{itemize}
     \begin{figure}[htpb]
         \centering
-        \includegraphics[width=0.2\linewidth]{pic/Tsinghua_University_Logo.eps}
+        \includegraphics[width=0.2\linewidth]{pic/scuec-logo.eps}
         \caption{这个校徽就是矢量图}
     \end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{快速展示代码}
+% 更多关于minted的用法请参考minted.pdf
+\begin{minted}{c++}
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+\end{minted}
 \end{frame}
 
 
