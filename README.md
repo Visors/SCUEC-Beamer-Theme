@@ -8,4 +8,7 @@ Overleaf模板位于：[https://www.overleaf.com/latex/templates/thu-beamer-them
 
 现项目GitHub：[https://github.com/Visors/SCUEC-Beamer-Theme](https://github.com/Visors/SCUEC-Beamer-Theme)
 
+现项目Overleaf：[https://www.overleaf.com/latex/templates/scuec-beamer-theme/zpxvjrtvztrw](https://www.overleaf.com/latex/templates/scuec-beamer-theme/zpxvjrtvztrw)
+
 添加了minted用例，由于正文字体大，使用时可按需调整fontsize参数。
+
